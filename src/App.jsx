@@ -1,4 +1,5 @@
 import './App.css'
+import Banner from './components/Banner/Banner'
 import NavigationBar from './components/NavigationBar/NavigationBar'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <NavigationBar></NavigationBar>
+      <Banner></Banner>
     </>
   )
 }
