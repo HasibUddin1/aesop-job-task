@@ -1,0 +1,10 @@
+.element {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: 200ms;
+}
+
+.element.show {
+    opacity: 1;
+    transform: translateY(0);
+}
